@@ -3,6 +3,7 @@
  *  1、队列实现
  */
 
+ // 队列
 class Queue {
   constructor() {
     this.count = 0
@@ -45,6 +46,7 @@ class Queue {
   }
 }
 
+// 双向队列
 class DeQue extends Queue {
   constructor() {
     super()

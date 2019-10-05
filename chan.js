@@ -1,3 +1,8 @@
+/**
+ * 数据结构：
+ *  2、链表
+ */
+
 const defaultEqualFn = (current, target) => {
   if (!current || !target) throw new Error("params can not be empty!")
   const s = JSON.stringify
